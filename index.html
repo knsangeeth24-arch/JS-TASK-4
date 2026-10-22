@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+   <div class="header">
+     <div class="rect">
+        <center>
+            <h2>Spend Smart</h2>
+            <p>Track . Manage . Save</p>
+           
+        </center>
+        <div class="home">
+            <h3>HOME</h3>
+            <h3>EXPENSES</h3>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <h1>Welcome to Spend smart</h1>
+        <p>Track your expenses , manage your budget and achieve your goals.</p>
+    
+        <div class="boxs">   
+            <div class="total">
+                <p id="totall">Total Spending</p>
+            </div>
+            <div class="number">
+                <p>Number of Expenses</p>
+            </div>
+            <div class="remaining">
+                <p>Remaining Budget</p>
+            </div>
+            <div class="dollers">
+                <p>Monthly Spending</p>
+            </div>
+        </div>
+        <div class="add">
+            <h2>Add Expenses</h3>
+           <div class="ad">
+                <div>
+                    <p>Expense Name</p>
+                    <input type="text" id="exname">
+                </div>
+                <div>
+                    <p id="totalcount">Expense amount</p>
+                    <input type="tel" id="examount">
+                </div>
+                <div>
+                    <p>category</p>
+                    <input type="text" id="excate">
+                </div>
+                <div>
+                    <button id="submit" onclick="update()"> + Add Expenses</button><br><br>
+
+
+                </div>
+                <table id="expenselist"></table>
+           </div>
+        </div>
+    </div>
+    
+   </div>
+   <script src="java.js"></script>
+</body>
+</html>
